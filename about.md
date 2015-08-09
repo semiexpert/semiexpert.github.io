@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+In Semiconductor Field for 15 years
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Training by Macroscopic world by ChE and microscopic world by MSE.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Email](mailto:rystrade@gmail.com)

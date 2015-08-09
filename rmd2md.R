@@ -23,7 +23,7 @@ rmd2md <- function( path_site = getwd(),
                     recursive=FALSE) {
   
   require(knitr, quietly=TRUE, warn.conflicts=FALSE)
-  
+
   #andy change to avoid path problems when running without sh on windows 
   files <- list.files(path=file.path(path_site,dir_rmd), pattern=in_ext, ignore.case=TRUE, recursive=recursive)
   
@@ -49,7 +49,7 @@ rmd2md <- function( path_site = getwd(),
           
           #andy change to path
           outFile <- file.path(path_site, dir_md, paste0(substr(f, 1, (nchar(f)-(nchar(in_ext)))), out_ext))
-          
+                   
           #render_markdown(strict=TRUE)
           #render_markdown(strict=FALSE) #code didn't render properly on blog
           
@@ -58,13 +58,13 @@ rmd2md <- function( path_site = getwd(),
           #render_jekyll(highlight = "prettify") #for javascript
           
           opts_knit$set(out.format='markdown') 
-          
+                    
           # andy BEWARE don't set base.dir!! it caused me problems
           # "base.dir is never used when composing the URL of the figures; it is 
           # only used to save the figures to a different directory. 
           # The URL of an image is always base.url + fig.path"
           # https://groups.google.com/forum/#!topic/knitr/18aXpOmsumQ
-          
+                    
           opts_knit$set(base.url = "/")
           opts_chunk$set(fig.path = url_images)                     
           
