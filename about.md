@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-In Semiconductor Field for 15 years
+Semiconductor industry analysis and technology trends. All analyzed from data analytical approach.
 
 ### More Information
 
-Training by Macroscopic world by ChE and microscopic world by MSE.
+Ph.D. in Semiconductor Materials and Device physics. Worked in the field since 2000. Newly minted with Data Analytical.
 
 ### Contact me
 
